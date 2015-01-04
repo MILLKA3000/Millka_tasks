@@ -1,9 +1,14 @@
 ﻿body {
 	font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
-	font-size: 11pt; /* Размер основного шрифта в пунктах  */
+	font-size: 16pt; /* Размер основного шрифта в пунктах  */
 	background-color: #f0f0f0; /* Цвет фона веб-страницы */
-	color: #333; /* Цвет основного текста */ 
+	color: #87CEEB; /* Цвет основного текста */ 
 }
 .im {
 	color: #FF0000;
 }
+.pr {
+	color: #006400;
+}
+.di {
+	color: #8B8B83
