@@ -1,0 +1,10 @@
+﻿a {
+	text-decoration: none;
+	color: green;
+	font-size: 16pt;
+	font-family: Arial;
+}
+a:hover {
+	color: #FBA1A1;
+}
+
