@@ -3,6 +3,11 @@
 <head>
 	<meta charset "UTF-8">
 	<title>task5</title>
+	<style>
+	   input:checked + span {
+		background: #fc0;
+	   }
+  </style>
 </head>
 <body>
 	<form action="task5.html" method="get">
@@ -33,6 +38,11 @@
 		<p>
 			<b>Пароль:</b><br>
 			<input required type="password" maxlength="50" size="15" name="password">
+		</p>
+		<p>
+			<strong>Згода на обробку</strong> <b>персональних даних</b>
+			<input type="radio" name="accepted" value="y" required> <span>Так</span>
+			<input type="radio" name="accepted" value="n"> <span>Ні</span>
 		</p>
 		<p>
 		<input type="reset" value="Скинути">
